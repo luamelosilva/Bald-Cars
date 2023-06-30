@@ -1,0 +1,10 @@
+Reunião 07/03/20223 - ás 21:25 até as 22:00
+Todos os Integrantes Do Projeto Participaram
+
+Assuntos Discutidos:
+
+- LogoMarca, aparecer varias marcas de carro
+- Foi Discutido A Opção de Buscar de carro
+- Modelo de Busca inspirado do site web motors (Carros populares na pagina inicial)
+- Modelo de Busca inspirado na rota do sol
+- Deixar O Buscar e o navegue Por Marca

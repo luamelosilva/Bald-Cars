@@ -1,0 +1,300 @@
+@charset "Utf-8";
+/* HEADER */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+li a:hover{/* Esse Deu um Probleminhaa */
+    background: white;
+    transition: 0.5;
+    border-radius: 20px;
+}
+.navbar a:hover{
+    color: black;
+}
+.navbar h1 a{
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+.navbar h1 a:hover{
+    background-color: white;
+    transition: 0.5;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
+
+/*  LOgin   */
+
+
+
+
+.login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 87vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.card {
+   background-color:black;
+   padding: 80px;
+   border-radius: 2px;
+   width:300px;
+   padding-bottom: 5px;
+   padding-left: 50px;
+   border-radius:15px;
+   height: 470px;
+
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    display: block;
+}
+
+.card-content label {
+
+    color: #fff;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    outline: none;
+
+    color: #fff;
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #454A52;
+
+    border:none;
+
+    color:#e1e1e1;
+
+    margin: 10px 0 0 15px;
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    font-size: 15px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    /*font-family: 'Poppins',sans-serif;*/
+
+}
+
+.recuperar_senha{
+margin-top: 14px;
+}
+
+
+h1{
+text-align: center;
+
+}
+
+
+img{
+     width: 338px;
+     height: 200px;
+
+     border-radius:15px;
+     -webkit-border-radius:15px;
+     -moz-border-radius:15px;
+     -ms-border-radius:15px;
+     -o-border-radius:15px;
+    
+}
+.inicio{
+
+    padding-right: 300px;
+    margin-right: 480px;
+
+}
+
+
+
+
+
+
+
+footer {
+    background-color: black; /* BACKGROUND DO RODAPÉ*/
+    color: #ffffff;
+    padding: -10px 0px;
+  } 
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  } 
+  
+  .row {
+    display: flex;
+    margin-left: 10%;
+    
+  }
+  
+  .col-md-4 {
+    width: 33.333333%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+  }
+  
+  h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    transform: translateY(-5px);
+  }
+  .login video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .login video{
+        width: auto;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+

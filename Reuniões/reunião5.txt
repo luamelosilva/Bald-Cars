@@ -1,0 +1,21 @@
+Reunião 17/03/2023
+Todos os integrantes participaram
+horário - 21:00 até as 23:00
+
+Foi escolhido o protótipo de modelo criado pelo integrante vinicius no figma
+
+Definirmos as marcas
+ -porshe
+ -ferrari
+ -bmw
+ -mercedes
+ -lamborguini
+ -chevrolet
+ -nissan
+ -audi
+ -hyundai
+ -rennault
+
+desiguinado pra cada integrante do grupo, 1 página por integrante(Luã Melo, jean, vinicius, lucas lima, felipe).
+
+

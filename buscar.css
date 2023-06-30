@@ -1,0 +1,323 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: black;
+    justify-content: center;
+    /*background-color: black;*/
+    transition: background 0.4s ease-in;
+    
+}
+.banner{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
+}
+.navbar{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+li a:hover{
+    background: white;
+    transition: 0.5;
+    border-radius: 20px;
+}
+.navbar a:hover{
+    color: black;
+}
+h1{
+    color: white;
+}
+.navbar h1 a{
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    
+}
+.navbar h1 :hover{
+    background: white;
+    transition: 0.5;
+    border-radius: 20px;
+}
+input[type=radio] {
+    display: none;
+}
+img {
+    /*width: 100%;
+    height: 100%;*/
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 1px 1px 30px#151515;
+}
+.card {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 0;
+    right: 20%;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+.container {
+    width: 100%;
+    height: 60%;
+    max-width: 1000px;
+    max-height: 600px;
+    display: flex;
+    transform-style: preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 370px;
+    top: 10px;
+}
+.cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+#item1:checked ~ .cards #song3,
+#item2:checked ~ .cards #song1,
+#item3:checked ~ .cards #song2{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+#item1:checked ~ .cards #song2,
+#item2:checked ~ .cards #song3,
+#item3:checked ~ .cards #song1{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+#item1:checked ~ .cards #song1,
+#item2:checked ~ .cards #song2,
+#item3:checked ~ .cards #song3{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+.search-box {
+    position:absolute;
+    top: 68%;
+    left: 49.9%;
+    transform: translate(-50%, 50%);
+    background-color: #353434;
+    width: 240px;
+    height: 50px;
+    padding: 10x;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-text{
+    border: none;
+    background: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 40px;
+    position: relative;
+    left: 4%;
+    
+  }
+  ::-webkit-input-placeholder {
+    color: #fff;
+  
+  }
+  .search-button{
+    background-color: #353434;
+    border-radius: 50%;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    
+  }
+  .search-box:hover > .search-text {
+    width: 196px;
+    padding: 0 10px;
+  }
+  .search-box:hover > .search-button {
+    background: #6c6c6c;
+  }  
+  h3{
+    font-size: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content2{
+    width: 17%;
+  
+    margin: 19px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.25);
+    transition: .4s;
+    background: white;
+}
+.content2:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform:  translate(0px, -8px);
+}
+.imgcarrosavenda{
+    width: 258px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    box-shadow: none;
+
+}
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+}
+h6 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding-top: 5px;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 9px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.buy-1{
+    background: grey;
+    height: 40px;
+}
+button:hover{
+    color: aqua;
+    transition: .2s;
+}
+.buy-1:hover{
+    background-color: rgb(135, 5, 5);
+    color: rgb(251, 251, 251);
+    transition: .2s;
+}
+footer {
+    background-color: black; /* BACKGROUND DO RODAPÉ*/
+    color: #ffffff;
+    padding: -10px 0px;
+  } 
+  .container_footer {
+    max-width: 1170px;
+    margin: 0 auto;
+  } 
+  .row {
+    display: flex;
+    
+  }
+  
+  .col-md-4 {
+    width: 33.333333%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+  }
+  
+  h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    transform: translateY(-5px);
+  }
